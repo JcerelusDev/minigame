@@ -1,2 +1,7 @@
-# minigame 
-This repo will contain lots of demo games ,that can inspire any new game devs on their journey
+# Platformer 
+
+This is a basic platformer game with only one goal to achieve,it is limited to a few level to make it simple as possible.
+
+### Important 
+
+Only the codes are mine, the assets are mot mine, they might be copyrighted , only for education use
