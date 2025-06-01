@@ -1,0 +1,84 @@
+.bg {
+    background: url("maps/Green.png");
+    font-family: helvetica, monospace;
+    overflow: hidden;
+}
+
+.rotate-90 {
+    transform-origin: center;
+    min-width: 100vh;
+    /* Viewport height */
+    min-height: 100vw;
+    /* Viewport width */
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+
+
+.ui-container {
+    min-width: 100vh;
+    min-height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./maps/Yellow.png);
+}
+
+@media (min-width:1000px) {
+    .ui-container {
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(./maps/yellow.png);
+    }
+}
+
+
+
+.play,
+.next {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background: rgb(0, 0, 12);
+    /*url(./maps/background.png);*/
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+.next {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.msg {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url(maps/Green.png);
+    color: white;
+    z-index: 999;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.msg h2,
+.msg p {
+    margin-top: 10%;
+    text-shadow: 0 0 4px rgb(233, 189, 204);
+}
