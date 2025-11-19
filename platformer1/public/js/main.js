@@ -1,4 +1,4 @@
-"use-strict"
+"use strict"
 import { animatedItem } from "./goal.js"
 import player from "./player.js"
 import { map, mapPath } from "./scene_management.js"
